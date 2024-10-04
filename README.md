@@ -1,10 +1,10 @@
-<bold>how to run</bold> 
+<strong>how to run</strong> 
 you can run this file using  <mark> nodemon index.js</mark>
 
-<bold>mongodb connect using</bold> 
+<strong>mongodb connect using</strong> 
 <mark>mongodb://127.0.0.1:27017/blog-app</mark>
 
-<bold>User</bold>
+<strong>User</strong>
 get using <mark> https://localhost:5000/ </mark>
 post register <mark> https://localhost:5000/register </mark>
 post login <mark> https://localhost:5000/login </mark>
