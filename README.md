@@ -3,14 +3,20 @@ you can run this file using  <mark> nodemon index.js</mark>
 <strong>mongodb connect using</strong> 
 <mark>mongodb://127.0.0.1:27017/blog-app</mark>
 
-<strong>For User</strong><br>
-get <mark> https://localhost:5000/ </mark><br>
-post <mark> https://localhost:5000/register </mark><br>
-post <mark> https://localhost:5000/login </mark><br>
-get <mark> https://localhost:5000/logout </mark><br>
+### Authentication Endpoints
 
-<strong>For Blog</strong><br>
-post <mark> https://localhost:5000/blog/ </mark><br>
-get <mark> https://localhost:5000/blog/ </mark><br>
-patch <mark> https://localhost:5000/blog/:id </mark><br>
-delete <mark> https://localhost:5000/blog/:id </mark><br>
+| Method | Route        | Description                  |
+|--------|--------------|------------------------------|
+| POST   | /register     | Register a new user          |
+| POST   | /login        | Log in as an existing user   |
+| GET    | /logout       | Log out the current user     |
+
+##
+### Blog Endpoints
+
+| Method | Route           | Description                    |
+|--------|-----------------|--------------------------------|
+| GET    | /recipes        | Fetch all blog                 |
+| POST   | /recipes        | Create a new blog              |
+| PATCH  | /recipes/:id    | Update an existing blog        |
+| DELETE | /recipes/:id    | Delete a blog                  |
