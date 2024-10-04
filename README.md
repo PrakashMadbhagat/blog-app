@@ -16,7 +16,7 @@ you can run this file using  <mark> nodemon index.js</mark>
 
 | Method | Route           | Description                    |
 |--------|-----------------|--------------------------------|
-| GET    | /recipes        | Fetch all blog                 |
-| POST   | /recipes        | Create a new blog              |
-| PATCH  | /recipes/:id    | Update an existing blog        |
-| DELETE | /recipes/:id    | Delete a blog                  |
+| GET    | /blog        | Fetch all blog                 |
+| POST   | /blog        | Create a new blog              |
+| PATCH  | /blog/:id    | Update an existing blog        |
+| DELETE | /blog/:id    | Delete a blog                  |
