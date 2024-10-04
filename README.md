@@ -1,4 +1,3 @@
-<strong>how to run</strong> 
 you can run this file using  <mark> nodemon index.js</mark>
 
 <strong>mongodb connect using</strong> 
